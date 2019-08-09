@@ -13,22 +13,14 @@ const CONF = {
   // networkTimeout: 30000,
 
   //本开发环境搭建-----------------------------------------------------------------------
-
-
-
-
-  port: '5757',
+  port: '3306',
   rootPathname: '',
-
   // 微信小程序 App ID
-  appId: '',
-
+  appId: 'wxbfd16e828eb183f4',
   // 微信小程序 App Secret
-  appSecret: '',
-
+  appSecret: '639477db44a8af2f03362c1848c3ddba',
   // 是否使用腾讯云代理登录小程序
-  useQcloudLogin: true,
-
+  useQcloudLogin: false,
   /**
    * MySQL 配置，用来存储 session 和用户信息
    * 若使用了腾讯云微信小程序解决方案
@@ -39,7 +31,7 @@ const CONF = {
     port: 3306,
     user: 'root',
     db: 'nodemysql',
-    pass: '123456',
+    pass: 'root',
     char: 'utf8mb4'
   },
 

@@ -5,14 +5,19 @@
 		"es6": false,
 		"postcss": true,
 		"minified": true,
-		"newFeature": true
+		"newFeature": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"nodeModules": true
 	},
 	"miniprogramRoot": "dist/",
 	"qcloudRoot": "server/",
 	"compileType": "miniprogram",
-	"appid": "wx601ce71bde7b9add",
+	"appid": "wxbfd16e828eb183f4",
 	"projectname": "mpvue-shop-ceshibanben",
 	"libVersion": "2.2.4",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,
